@@ -54,15 +54,15 @@ namespace WebBanhanh
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+               appId: "346600512480302",
+               appSecret: "7d67ceb051bab48be0eecb7486903a88");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "140476523114-r08hqg344aainjdr3audv40n7d8ot6c8.apps.googleusercontent.com",
+                ClientSecret = "Owi06YAi2laV1Dnpa2yoWu-A"
+            });
         }
     }
 }
